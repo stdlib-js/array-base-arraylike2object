@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-accessors": "^0.0.2",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/types": "^0.0.14",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/array-base-zeros": "^0.0.2",
