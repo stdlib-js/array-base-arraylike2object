@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@deno/mod.js';
+import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.1.0-deno/mod.js';
 ```
 
 #### arraylike2object( x )
@@ -107,7 +107,7 @@ var obj = arraylike2object( [ 1, 2, 3, 4 ] );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@deno/mod.js';
+import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.1.0-deno/mod.js';
 
 // Create an array:
 var x = new Complex64Array( 10 );
