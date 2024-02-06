@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-arraylike2object
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@deno/mod.js';
+var arraylike2object = require( '@stdlib/array-base-arraylike2object' );
 ```
 
 #### arraylike2object( x )
@@ -77,6 +95,7 @@ var obj = arraylike2object( [ 1, 2, 3, 4 ] );
 -   The returned object has the following properties:
 
     -   **data**: reference to the input array.
+    -   **dtype**: input array data type. If unable to resolve the [data type][@stdlib/array/dtype] of the input array, the property value is `null`.
     -   **accessorProtocol**: `boolean` indicating whether the input uses accessors for getting and setting elements.
     -   **accessors**: a two-element array whose first element is an accessor for retrieving an array element (i.e., a getter) and whose second element is an accessor for setting an array element (i.e., a setter).
 
@@ -106,8 +125,8 @@ var obj = arraylike2object( [ 1, 2, 3, 4 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@deno/mod.js';
+var Complex64Array = require( '@stdlib/array-complex64' );
+var arraylike2object = require( '@stdlib/array-base-arraylike2object' );
 
 // Create an array:
 var x = new Complex64Array( 10 );
@@ -148,7 +167,7 @@ console.log( obj );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -202,11 +221,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/array-base-arraylike2object/tree/deno
+[deno-readme]: https://github.com/stdlib-js/array-base-arraylike2object/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/array-base-arraylike2object/tree/umd
+[umd-readme]: https://github.com/stdlib-js/array-base-arraylike2object/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/array-base-arraylike2object/tree/esm
+[esm-readme]: https://github.com/stdlib-js/array-base-arraylike2object/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/array-base-arraylike2object/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-arraylike2object/main/LICENSE
+
+[@stdlib/array/dtype]: https://github.com/stdlib-js/stdlib
 
 </section>
 
