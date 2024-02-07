@@ -230,7 +230,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-arraylike2object/main/LICENSE
 
-[@stdlib/array/dtype]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/dtype]: https://github.com/stdlib-js/array-dtype
 
 </section>
 
