@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+arraylike2object = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-arraylike2object/tags). For example,
+
+```javascript
 arraylike2object = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var arraylike2object = require( 'path/to/vendor/umd/array-base-arraylike2object/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -135,7 +140,7 @@ var obj = arraylike2object( [ 1, 2, 3, 4 ] );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
