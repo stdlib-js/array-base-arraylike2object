@@ -43,7 +43,8 @@
     "@stdlib/array-base-getter": "^0.2.1",
     "@stdlib/array-base-setter": "^0.2.1",
     "@stdlib/array-dtype": "^0.2.1",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-zeros": "^0.2.1",
