@@ -37,26 +37,26 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.2.1",
-    "@stdlib/array-base-accessor-setter": "^0.2.1",
-    "@stdlib/array-base-assert-is-accessor-array": "^0.2.1",
-    "@stdlib/array-base-getter": "^0.2.1",
-    "@stdlib/array-base-setter": "^0.2.1",
-    "@stdlib/array-dtype": "^0.2.1",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/array-base-accessor-getter": "^0.2.2",
+    "@stdlib/array-base-accessor-setter": "^0.2.2",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
+    "@stdlib/array-base-getter": "^0.2.2",
+    "@stdlib/array-base-setter": "^0.2.2",
+    "@stdlib/array-dtype": "^0.3.0",
+    "@stdlib/types": "^0.4.1"
   },
   "devDependencies": {
-    "@stdlib/array-base-zeros": "^0.2.1",
-    "@stdlib/array-complex64": "^0.2.1",
-    "@stdlib/array-float64": "^0.2.1",
-    "@stdlib/assert-is-collection": "^0.2.1",
-    "@stdlib/complex-float32-ctor": "^0.0.1",
-    "@stdlib/complex-float32-imag": "github:stdlib-js/complex-float32-imag#main",
-    "@stdlib/complex-float32-real": "github:stdlib-js/complex-float32-real#main",
+    "@stdlib/array-base-zeros": "^0.2.2",
+    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/assert-is-collection": "^0.2.2",
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float32-imag": "^0.1.1",
+    "@stdlib/complex-float32-real": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
