@@ -20,7 +20,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 import { Collection, Complex64Array, Complex128Array, AccessorArrayLike } from '@stdlib/types/array';
 import { Complex64, Complex128, ComplexLike } from '@stdlib/types/complex';
