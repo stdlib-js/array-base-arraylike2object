@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-15)
+## Unreleased (2024-09-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`20dea8a`](https://github.com/stdlib-js/stdlib/commit/20dea8af2b14181aa75354f7e3aeb65b955904b9) - **docs:** remove extraneous newline _(by Athan Reines)_
 -   [`a541897`](https://github.com/stdlib-js/stdlib/commit/a541897dec2cd902c186d9ad128b6efd8a3ca528) - **docs:** fix grammar _(by Athan Reines)_
 -   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
 -   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
