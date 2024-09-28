@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`20dea8a`](https://github.com/stdlib-js/stdlib/commit/20dea8af2b14181aa75354f7e3aeb65b955904b9) - **docs:** remove extraneous newline _(by Athan Reines)_
 -   [`a541897`](https://github.com/stdlib-js/stdlib/commit/a541897dec2cd902c186d9ad128b6efd8a3ca528) - **docs:** fix grammar _(by Athan Reines)_
