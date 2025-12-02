@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2025-12-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b527ab1`](https://github.com/stdlib-js/stdlib/commit/b527ab1153bf572ec1e89e6c479528c52f1a811d) - **bench:** refactor to use string interpolation in `array/base/arraylike2object` [(#8689)](https://github.com/stdlib-js/stdlib/pull/8689) _(by Rohit R Bhat)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`20dea8a`](https://github.com/stdlib-js/stdlib/commit/20dea8af2b14181aa75354f7e3aeb65b955904b9) - **docs:** remove extraneous newline _(by Athan Reines)_
@@ -30,10 +31,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Rohit R Bhat
 
 </section>
 
