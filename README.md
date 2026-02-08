@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-arraylike2object/tags). For example,
+
+```javascript
 import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.2-esm/index.mjs';
 ```
 
@@ -113,7 +118,7 @@ var obj = arraylike2object( [ 1, 2, 3, 4 ] );
 <script type="module">
 
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.2-esm/index.mjs';
+import arraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@esm/index.mjs';
 
 // Create an array:
 var x = new Complex64Array( 10 );
