@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-09-04)
+
+<section class="features">
+
+### Features
+
+-   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`1038f59`](https://github.com/stdlib-js/stdlib/commit/1038f593e4cd4b7167f99bc8aee9e5106416b03a) - **feat:** add float16 dtype support to `array/base/*` [(#14896)](https://github.com/stdlib-js/stdlib/pull/14896) _(by Gururaj Gurram, Athan Reines)_
 -   [`8decd39`](https://github.com/stdlib-js/stdlib/commit/8decd399a17fed37bad4642b0a8efc4b2cb7a5a8) - **docs:** fix accessor example arguments in `array/base/arraylike2object` [(#11969)](https://github.com/stdlib-js/stdlib/pull/11969) _(by Karan Anand)_
 
 </details>
@@ -24,8 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Gururaj Gurram
 -   Karan Anand
 
 </section>
